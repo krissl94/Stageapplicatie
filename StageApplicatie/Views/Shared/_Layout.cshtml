@@ -8,6 +8,12 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+    <div id="MenuBalk"  class="StageDocent">
+        <ul id="MenuItems">
+            <li><a href="">Mijn stagiaires</a></li>
+            <li><a href='@Url.Action("MijnBedrijven", "Home")'>Mijn bedrijven</a></li>
+        </ul>
+    </div>
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")

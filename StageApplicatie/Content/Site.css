@@ -59,3 +59,12 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+#MenuItems{
+    list-style:none;
+}
+
+#MenuItems li{
+    display:inline;
+
+}
